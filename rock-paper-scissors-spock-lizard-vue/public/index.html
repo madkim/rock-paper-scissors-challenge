@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <!-- Here I embed the Barlow Semi Condensed font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Rock, Paper, Scissors</title>
+
+    <!-- This is where the main component is loaded/rendered from the /src folder -->
+    <div id="GameBoard"></div>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      /* Here I set global font and background color styling */
+      body {
+        font-family: "Barlow Semi Condensed";
+        background-image: radial-gradient(
+          circle,
+          hsl(214, 47%, 23%),
+          hsl(237, 49%, 15%)
+        );
+      }
+      /* Here I add column and row class definitions */
+      .column {
+        float: left;
+        width: 50%;
+      }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      /* Here I add a class definition to center divs */
+      .center {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body></body>
+</html>
